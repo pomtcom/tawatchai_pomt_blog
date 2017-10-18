@@ -1,0 +1,1 @@
+start cmd /k C:\Users\TawatchaiP\Envs\tawatchai_blog_vm\Scripts\activate

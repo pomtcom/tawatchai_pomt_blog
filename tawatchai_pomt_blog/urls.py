@@ -1,6 +1,8 @@
 from django.conf.urls import patterns, url
 
-from thinkster_django_angular_boilerplate.views import IndexView
+from tawatchai_pomt_blog.views import IndexView
+# from rest_framework_nested import routers
+
 
 urlpatterns = patterns(
     '',
