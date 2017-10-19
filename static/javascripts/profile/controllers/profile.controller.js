@@ -6,7 +6,7 @@
   'use strict';
 
   angular
-    .module('profile.controllers')
+    .module('profile.controller')
     .controller('ProfileController', ProfileControllerFunction);
 
   ProfileControllerFunction.$inject = ['$scope'];

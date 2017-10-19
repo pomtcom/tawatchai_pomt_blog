@@ -1,4 +1,4 @@
-# Tawatchai pomt blog
+# thinkster-django-angular-boilerplate
 
 ## Installation
 

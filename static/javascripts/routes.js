@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-    .module('routes').config(config);
+  .module('routes').config(config);
 
   config.$inject = ['$routeProvider'];
 
@@ -11,10 +11,15 @@
   * @desc Define valid application routes
   */
   function config($routeProvider) {
-    $routeProvider.when('/profile', {
+    $routeProvider
+    .when('/profile', {
       controller: 'ProfileController', 
       controllerAs: 'vm',
       templateUrl: '/static/templates/profile.html'
-    }).otherwise('/');
+    })
+    .when('/blogs',{
+      template: '<blogs-list></blogs-list>'
+    })
+    .otherwise('/');
   }
 })();

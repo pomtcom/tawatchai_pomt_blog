@@ -1,13 +1,23 @@
 (function () {
-  'use strict';
+	'use strict';
 
-  angular
-    .module('main', ['routes','profile.controllers']);
+	angular
+	.module('main', ['routes','profile.controller','config']);
 
-  angular
-    .module('routes', ['ngRoute']);
+	angular
+	.module('routes', ['ngRoute']);
 
-  angular
-    .module('profile.controllers',[]);
+	angular
+	.module('profile.controller',[]);
+
+	angular.module('config',[]);
+
+	// angular.module('main',[]);
+
+	// angular.module('blogs.controller',[]);
+
+
+
+	
 
 })();
