@@ -3,11 +3,21 @@
 
   angular
   .module('main').component('blogsList',{
-    template:
-    '<div>component for blogs is working right now</div>',
-    controller: function DEFGHIJ() {
-      this.phones = "aaa";
+    templateUrl: '/static/templates/blogs.html',
+    controller: function DEFGHIJ($scope, contacts) {
+      // this.phones = "aaa";
       // console.log(this.phones);
+      // $scope.clickedIndex = __savedClickedIndex;
+      $scope.contacts = contacts.getContacts();
+
+
+
+
+
+
+
+
+
     }
   });
 
